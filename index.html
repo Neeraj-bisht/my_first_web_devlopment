@@ -11,8 +11,8 @@
     <script type="text/javascript">
           var c = document.getElementById("mycanvas");
           var ctx = c.getContext("2d");
-          ctx.moveTo(0,0);
-          ctx.lineTo(200,100);
+          ctx.beginPath();
+          ctx.arc(95,50,40,0,7); 
           ctx.stroke();
     </script>
   </body>
