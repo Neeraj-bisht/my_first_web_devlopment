@@ -5,15 +5,11 @@
     <title>my first page</title>
   </head>
   <body>
-    <h1>first Page</h1>
-    <canvas id="mycanvas" width="200" height="100"
-    style="border:1px solid #d3d3d3"></canvas>
+      <input type="button" name="popup" value="Click Me" onclick="funkey()">    
     <script type="text/javascript">
-          var c = document.getElementById("mycanvas");
-          var ctx = c.getContext("2d");
-          ctx.font= "30px Arial";
-          ctx.fillText("Hello World", 10, 50);
-          ctx.stroke();
+          function funkey() {
+            alert ("this is my first script page");
+          }
     </script>
   </body>
 </html>
